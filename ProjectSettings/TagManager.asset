@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Food
+  - HealthBubble
+  - Positions
+  - Positions2
+  - LeftSide
+  - RightSide
+  - FishSpawnRight
+  - FishSpawnLeft
+  - LeftSide1
+  - LeftSide2
+  - RightSide1
+  - RightSide2
+  - BF
+  - BT
+  - CF
+  - S
+  - EEL
+  - AF
+  - bugs
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Fish
+  - Water
+  - UI
+  - Camera
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
