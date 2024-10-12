@@ -212,13 +212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4ede4ce559b1d44a66b9b9d3525a21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy:
-  - {fileID: 321900433142340188, guid: 28d961c90172f984589b99321232ba0e, type: 3}
-  - {fileID: 321900433142340188, guid: de5b4fcce3e446d479ebadf01eb1021b, type: 3}
-  - {fileID: 321900433142340188, guid: dc606a00236cbb1468480026e7a2b600, type: 3}
-  - {fileID: 321900433142340188, guid: 641bf2887b7b4d942b3441c6984f0388, type: 3}
-  - {fileID: 321900433142340188, guid: 9eb2111cffbbf084e82122b16bd5021a, type: 3}
-  - {fileID: 321900433142340188, guid: ea45e3488648d894b97218826cb87cf5, type: 3}
+  Fish: []
 --- !u!1 &50317559
 GameObject:
   m_ObjectHideFlags: 0
@@ -308,13 +302,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4ede4ce559b1d44a66b9b9d3525a21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy:
-  - {fileID: 321900433142340188, guid: 7f92ec54abb546b48bb0cac7d57d1fd2, type: 3}
-  - {fileID: 321900433142340188, guid: d3ff2a59d7c99d14586b780d32825c14, type: 3}
-  - {fileID: 321900433142340188, guid: 83fba83f2400e984cbdbc8830fa41919, type: 3}
-  - {fileID: 321900433142340188, guid: e6b85c27a923ee141a0abb2b10e2ed20, type: 3}
-  - {fileID: 321900433142340188, guid: 7380a9c88d27b5043bfc8277ef77a782, type: 3}
-  - {fileID: 321900433142340188, guid: 7c27e575d46047f4a9ba8c63792dc80a, type: 3}
+  Fish: []
 --- !u!1 &260904527
 GameObject:
   m_ObjectHideFlags: 0
@@ -884,13 +872,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4ede4ce559b1d44a66b9b9d3525a21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy:
-  - {fileID: 321900433142340188, guid: 02132ee6f50ed2848a009610642e0044, type: 3}
-  - {fileID: 321900433142340188, guid: e48d1b9db8d16a942a3785a85c003f4c, type: 3}
-  - {fileID: 321900433142340188, guid: e76f8577c2cbaf8438e00cd9dd56a482, type: 3}
-  - {fileID: 321900433142340188, guid: 832c9f531c373b8498be47b782fa52a4, type: 3}
-  - {fileID: 321900433142340188, guid: d355e77201e695d43bfa12c6760625b0, type: 3}
-  - {fileID: 321900433142340188, guid: c97e9651e931ab347817eb0c6324a00e, type: 3}
+  Fish: []
 --- !u!1 &619658441
 GameObject:
   m_ObjectHideFlags: 0
@@ -935,13 +917,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4ede4ce559b1d44a66b9b9d3525a21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy:
-  - {fileID: 321900433142340188, guid: a63e9ebc8da42d8448d9c12026b13142, type: 3}
-  - {fileID: 321900433142340188, guid: fee5e0149dd22a94fa12962e92a09e84, type: 3}
-  - {fileID: 321900433142340188, guid: 225f5693063919447aaac1512f31cea9, type: 3}
-  - {fileID: 321900433142340188, guid: b074290f311d3ce4694863ed8ba1de94, type: 3}
-  - {fileID: 321900433142340188, guid: 537004e27db0cf04ebfd1d7b48313de9, type: 3}
-  - {fileID: 321900433142340188, guid: 109cd1a525f3ef84891c7b3ff5104b81, type: 3}
+  Fish: []
 --- !u!1 &626794080
 GameObject:
   m_ObjectHideFlags: 0
@@ -1257,13 +1233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4ede4ce559b1d44a66b9b9d3525a21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy:
-  - {fileID: 321900433142340188, guid: dacbf3188367a0a43ae3b566a8395880, type: 3}
-  - {fileID: 321900433142340188, guid: c736681645c10f94f915b89b76abc927, type: 3}
-  - {fileID: 321900433142340188, guid: c399a9d00e73fc949a979fd8c0ea532f, type: 3}
-  - {fileID: 321900433142340188, guid: 7d7322075d9d41a4a89e0bd2f30e2baf, type: 3}
-  - {fileID: 321900433142340188, guid: 06bd91ee95bf1fc408dc950f8c62503f, type: 3}
-  - {fileID: 321900433142340188, guid: 33c77e6b8ec612345b8b5fe3b5dd8932, type: 3}
+  Fish: []
 --- !u!1 &680080127
 GameObject:
   m_ObjectHideFlags: 0
@@ -1497,13 +1467,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4ede4ce559b1d44a66b9b9d3525a21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy:
-  - {fileID: 321900433142340188, guid: 74fbb601e66a1ed479eb9f4b6e3f88ac, type: 3}
-  - {fileID: 321900433142340188, guid: 66e8ce3117e1b6c4dbb908923389bc62, type: 3}
-  - {fileID: 321900433142340188, guid: 846685bc39a221f499caab0903509467, type: 3}
-  - {fileID: 321900433142340188, guid: f80ef1a7240b6ca499d36711d139df02, type: 3}
-  - {fileID: 321900433142340188, guid: 75ed6b0242f258544b2736c47a4f7a1d, type: 3}
-  - {fileID: 321900433142340188, guid: feb902036ffc5d141bb51b7948e581b4, type: 3}
+  Fish: []
 --- !u!1 &889288464
 GameObject:
   m_ObjectHideFlags: 0
@@ -2531,13 +2495,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4ede4ce559b1d44a66b9b9d3525a21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy:
-  - {fileID: 321900433142340188, guid: 74fbb601e66a1ed479eb9f4b6e3f88ac, type: 3}
-  - {fileID: 321900433142340188, guid: 66e8ce3117e1b6c4dbb908923389bc62, type: 3}
-  - {fileID: 321900433142340188, guid: 846685bc39a221f499caab0903509467, type: 3}
-  - {fileID: 321900433142340188, guid: f80ef1a7240b6ca499d36711d139df02, type: 3}
-  - {fileID: 321900433142340188, guid: 75ed6b0242f258544b2736c47a4f7a1d, type: 3}
-  - {fileID: 321900433142340188, guid: feb902036ffc5d141bb51b7948e581b4, type: 3}
+  Fish: []
 --- !u!1 &1477307793
 GameObject:
   m_ObjectHideFlags: 0
@@ -3253,13 +3211,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4ede4ce559b1d44a66b9b9d3525a21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy:
-  - {fileID: 321900433142340188, guid: a63e9ebc8da42d8448d9c12026b13142, type: 3}
-  - {fileID: 321900433142340188, guid: fee5e0149dd22a94fa12962e92a09e84, type: 3}
-  - {fileID: 321900433142340188, guid: 225f5693063919447aaac1512f31cea9, type: 3}
-  - {fileID: 321900433142340188, guid: b074290f311d3ce4694863ed8ba1de94, type: 3}
-  - {fileID: 321900433142340188, guid: 537004e27db0cf04ebfd1d7b48313de9, type: 3}
-  - {fileID: 321900433142340188, guid: 109cd1a525f3ef84891c7b3ff5104b81, type: 3}
+  Fish: []
 --- !u!1 &1792036629
 GameObject:
   m_ObjectHideFlags: 0
@@ -3304,13 +3256,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4ede4ce559b1d44a66b9b9d3525a21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy:
-  - {fileID: 321900433142340188, guid: 02132ee6f50ed2848a009610642e0044, type: 3}
-  - {fileID: 321900433142340188, guid: e48d1b9db8d16a942a3785a85c003f4c, type: 3}
-  - {fileID: 321900433142340188, guid: e76f8577c2cbaf8438e00cd9dd56a482, type: 3}
-  - {fileID: 321900433142340188, guid: 832c9f531c373b8498be47b782fa52a4, type: 3}
-  - {fileID: 321900433142340188, guid: d355e77201e695d43bfa12c6760625b0, type: 3}
-  - {fileID: 321900433142340188, guid: c97e9651e931ab347817eb0c6324a00e, type: 3}
+  Fish: []
 --- !u!1 &1969533822
 GameObject:
   m_ObjectHideFlags: 0
@@ -3558,13 +3504,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4c4ede4ce559b1d44a66b9b9d3525a21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemy:
-  - {fileID: 321900433142340188, guid: 7f92ec54abb546b48bb0cac7d57d1fd2, type: 3}
-  - {fileID: 321900433142340188, guid: d3ff2a59d7c99d14586b780d32825c14, type: 3}
-  - {fileID: 321900433142340188, guid: 83fba83f2400e984cbdbc8830fa41919, type: 3}
-  - {fileID: 321900433142340188, guid: e6b85c27a923ee141a0abb2b10e2ed20, type: 3}
-  - {fileID: 321900433142340188, guid: 7380a9c88d27b5043bfc8277ef77a782, type: 3}
-  - {fileID: 321900433142340188, guid: 7c27e575d46047f4a9ba8c63792dc80a, type: 3}
+  Fish: []
 --- !u!1 &2071464268
 GameObject:
   m_ObjectHideFlags: 0

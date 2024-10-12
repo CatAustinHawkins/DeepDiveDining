@@ -558,7 +558,7 @@ GameObject:
   - component: {fileID: 657883775}
   m_Layer: 0
   m_Name: Sea & Water Background Music No Copyright [ ezmp3.cc ]
-  m_TagString: bugs
+  m_TagString: BGM
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

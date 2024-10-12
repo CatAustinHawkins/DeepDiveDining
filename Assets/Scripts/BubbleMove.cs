@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BubbleMove : MonoBehaviour
@@ -16,11 +15,9 @@ public class BubbleMove : MonoBehaviour
 
     public string tag;
 
-    // Start is called before the first frame update
     void Start()
     {
         Locations = GameObject.FindGameObjectsWithTag(tag);
-
         random = Random.Range(0, Randomlimit);
         StartCoroutine(ChangeTarget());
     }
@@ -29,8 +26,6 @@ public class BubbleMove : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position, Locations[random].transform.position, step);
     }
-
-
 
     IEnumerator ChangeTarget()
     {

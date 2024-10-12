@@ -1,20 +1,19 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 public class PlayerMovement : MonoBehaviour
 {
-
     public float moveSpeed;
 
     public float scalesize = 0.25f;
 
     public Camera MainCamera;
 
-    public SpriteRenderer SpriteR;
+    public SpriteRenderer SpriteR; //Player SR
 
+    //Sprites to set the player too
     public Sprite CF;
     public Sprite AF;
     public Sprite BT;
@@ -24,13 +23,13 @@ public class PlayerMovement : MonoBehaviour
 
     public ScoreScript Scores;
 
-    public bool B_BF;
-    public bool B_CF;
-    public bool B_AF;
-    public bool B_BT;
-    public bool B_Eel;
-    public bool B_Shark;
-    public bool BigShark;
+    public bool B_BF; //Butterflyfish
+    public bool B_CF; //Clown Fish
+    public bool B_AF; //Angel Fish
+    public bool B_BT; //Blue Tang
+    public bool B_Eel; //Eel
+    public bool B_Shark; //Shark
+    public bool BigShark; //LargeShark
 
     public float health = 1f;
 
@@ -79,7 +78,8 @@ public class PlayerMovement : MonoBehaviour
             transform.position = transform.position += transform.up * -moveSpeed * Time.deltaTime;
         }
 
-        if (Scores.Score > 5)
+        //If player has more than 5 points, level up and change sprite
+        if (Scores.Score > 5) 
         {
             B_CF = false;
             B_BT = true;
@@ -142,9 +142,9 @@ public class PlayerMovement : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "CF")
+        if(other.tag == "CF") //Clownfish
         {
-            if(B_CF && !HealthCooldown)
+            if(B_CF && !HealthCooldown) //If player is a Clownfish or smaller, get damaged
             {
                 health = health - 0.05f;
                 HealthBar.value = health;
@@ -152,7 +152,7 @@ public class PlayerMovement : MonoBehaviour
                 Hurt.Play();
             }
 
-            if (!B_CF)
+            if (!B_CF) //if the player is bigger than a Clownfish, eat it
             {
                 Scores.Score = Scores.Score + 2f;
                 Destroy(other.gameObject);
@@ -160,7 +160,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (other.tag == "BT")
+        if (other.tag == "BT") //Blue Tang
         {
             if (B_BT || B_CF && !HealthCooldown)
             {
@@ -178,7 +178,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (other.tag == "AF")
+        if (other.tag == "AF") //Angel Fish
         {
             if (B_AF || B_BT || B_CF && !HealthCooldown)
             {
@@ -188,7 +188,7 @@ public class PlayerMovement : MonoBehaviour
                 Hurt.Play();
             }
 
-            if (!B_AF && !B_BT && !B_CF)
+            if (!B_AF && !B_BT && !B_CF) 
             {
                 Scores.Score = Scores.Score + 8f;
                 Destroy(other.gameObject);
@@ -196,7 +196,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (other.tag == "BF")
+        if (other.tag == "BF") //Butterflyfish
         {
             if (B_BF || B_AF || B_BT || B_CF && !HealthCooldown)
             {
@@ -215,7 +215,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
-        if (other.tag == "EEL")
+        if (other.tag == "EEL") //Eel
         {
             if (B_Eel || B_BF || B_AF || B_BT || B_CF && !HealthCooldown)
             {
@@ -234,7 +234,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        if (other.tag == "S")
+        if (other.tag == "S") //Shark
         {
             if (B_Shark || B_Eel || B_BF || B_AF || B_BT || B_CF && !HealthCooldown)
             {

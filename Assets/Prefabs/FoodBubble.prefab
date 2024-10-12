@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3966955551810117084}
   - component: {fileID: -2719796379345036789}
   m_Layer: 0
-  m_Name: Food (2)
+  m_Name: FoodBubble
   m_TagString: Food
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
